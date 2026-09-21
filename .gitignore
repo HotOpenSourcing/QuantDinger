@@ -19,8 +19,6 @@
 # ========================
 # Environment & Secrets
 # ========================
-.env
-.env.local
 .env.*.local
 backend.env
 backend_api_python/.env
@@ -30,7 +28,6 @@ backend_api_python/.env
 # IDE & OS
 # ========================
 .idea/
-.vscode/
 agent-tools/
 .cache/
 .codex/
@@ -100,3 +97,4 @@ backend_api_python/data/memory/
 # Docker
 # ========================
 docker-compose.override.yml
+config.bat
